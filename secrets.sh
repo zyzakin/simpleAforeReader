@@ -1,14 +1,14 @@
 #!/bin/bash
 
 
-aforeUser="admin"
-aforePass="admin"
+aforeUser="user"
+aforePass="pass"
 
-influxUser="hass"
-influxPass="Hass*76"
+influxUser="user"
+influxPass="pass"
 
-mosquittoUser="homeassistant"
-mosquittoPass="dich7yoo7auti8ooy3Oom3yee1aiPhee6leic1ahngae0im4piu5geetait1lol4"
+mosquittoUser="user"
+mosquittoPass="pass"
 
 
 

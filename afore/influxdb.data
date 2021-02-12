@@ -391,3 +391,4 @@ kWh,domain=inverter,entity_id=hourly_yeld value=0.00 1613109540000000000
 kWh,domain=inverter,entity_id=hourly_yeld value=0.28 1613113140000000000
 kWh,domain=inverter,entity_id=hourly_yeld value=0.40 1613116740000000000
 kWh,domain=inverter,entity_id=hourly_yeld value=0.60 1613120340000000000
+kWh,domain=inverter,entity_id=hourly_yeld value=0.87 1613123940000000000
