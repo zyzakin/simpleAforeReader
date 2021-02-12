@@ -49,6 +49,7 @@ readInverter()
 		sed -i 's/ //g ' $tmpFile
 		sed -i 's/"//g ' $tmpFile
 		ok=$(awk 'NR==10' $tmpFile | awk -F"=" '{print $2}') #line 10 webdata_utime czy klucz webdata_utime ma wartosc
+		ok="${ok//[$'\t\r\n ']}"
 		echo "DEBUG - zmienna OK: [$ok]"
 		if [ -z "${ok}" ]; then
 			echo "INFO - dane niekompletne - wygląda na to ,że inverter jest niestabilny"
